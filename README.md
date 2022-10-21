@@ -9,3 +9,6 @@
 Изменение уровней сложности ("*" в номере - игра не предполагает уровней сложности).<br>
 НИКАКОЙ ASCII-графики!<br>
 
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/48648751/197183095-cbb7af71-b660-430e-80e9-58d91db0c374.png"><br>
+
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/48648751/197183145-fb346de2-c26c-4a9f-84ee-15745beb445d.png">
