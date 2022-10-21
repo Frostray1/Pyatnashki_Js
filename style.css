@@ -1,0 +1,80 @@
+body {
+    background-color:#2b2833;
+}
+#reset {
+    border:solid 1px gray;
+    background-color:#e2dcf2;
+    color: gray;
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+}
+td {
+    text-align:center;
+    color: e2dcf2;
+    vertical-align: middle;
+}
+#box td {
+    border:solid 2px #7a768e;
+    text-align:center;
+    font-size:40px;
+    font-family:Times New Roman;
+    color: gray;
+    width: 55px;
+    height: 55px;
+}
+#box td:hover {
+    color:white;
+    cursor: hand;
+}
+.welcome {
+    text-align:center;
+    color: #e2dcf2;
+    width: 300px;
+    height: 50px;
+   /* margin-left: 25%;
+   */
+    margin: auto;
+    margin-top: 100px;
+}
+table{
+    margin: auto;
+    margin-top: 100px;
+   /* margin-left: 575px;
+   */
+}
+.timer{
+    margin-top: 50px;
+    width: 300px;
+    height: 25px;
+   /* background: red;
+   */
+    margin: auto;
+    margin-top: 50px;
+}
+.wingame{
+    display: none;
+}
+.infoAboutGamer{
+   /* position:absolute;
+   */
+   /* margin-top: 100px;
+    */
+   /* margin-left: 25%;
+   */
+    display: none;
+    margin-top: 40px;
+}
+.game-screen{
+    text-align: center;
+   /* width: 100px;
+   */
+    display: none;
+    font-size: 30;
+}
+.game-record-button{
+    margin: 5px;
+}
+.tableRecord{
+    display: none;
+}

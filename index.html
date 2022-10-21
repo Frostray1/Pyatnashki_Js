@@ -1,0 +1,45 @@
+<html>
+   <head>
+      <title>Пятнашки</title>
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <div class="welcome">
+         <h1>Игра: "Пятнашки"</h1>
+         <div class="select-style">
+            <select class="game-level" id="levels">
+               <option value="1" selected>Начинающий</option>
+               <option value="2" >Продвинутый</option>
+               <option value="3">Опытный</option>
+            </select>
+            <button id="start" onclick="start1()">Новая игра</button>
+         </div>
+         <div class="game-footer"> 
+            <button class="game-record-button" onclick = "ShowRecords2()"> Таблица рекордов </button>
+         </div>
+         <div class="infoAboutGamer" id = "infoAboutGamer1">
+            <p>Вы установили новый рекорд! <br>Введите Ваше имя:</p>
+            <input type="text" id = "username"><br><br>
+            <input type="submit" value="ОК" onclick = "afterGetName()">
+            <input type="submit" value="Отмена" onclick="Cancel()">
+         </div>
+      </div>
+      <div id="box"></div>
+      <div class="game-screen" id = "game-screen1">
+         <div class="game-header">
+            <div class="game-timer">
+               <div class="game-time"></div>
+               <div>
+                  <p><span id="seconds">00</span>:<span id="tens">00</span></p>
+               </div>
+            </div>
+         </div>
+         <div class="game-board">
+         </div>
+         <div class="container"> </div>
+      </div>
+      <div class = "tableRecord" id="tableRecord"> 
+      </div>
+      <script type="text/javascript" src="main.js"></script>
+   </body>
+</html>
